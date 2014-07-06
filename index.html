@@ -7,27 +7,33 @@
 		<script src="js/uikit.min.js"></script>
 	</head>
 	<style>
-	#pageStart {
+	#pager {
 		max-width: 85%;
 		margin: 40px auto 40px auto;
 	}
 	</style>
 	<body>
-		<div id="pageStart">
-			<nav class="uk-navbar">
+		<div id="pager">
+			<div id="pageHeader">
+				<nav class="uk-navbar">
 				<a href="#" class="uk-navbar-brand">SHIELD</a>
-				<ul class="uk-navbar-nav">
+				<ul class="uk-navbar-nav uk-align-right">
 					<li class=uk-active"><a href="#">協會宗旨</a><li>
-					<li class=uk-active"><a href="#">資安訊息</a><li>
-					<li class=uk-active"><a href="#">網站公告</a><li>
-					<li class=uk-active"><a href="#">連絡我們</a><li>
+					<li><a href="#">資安訊息</a><li>
+					<li><a href="#">網站公告</a><li>
+					<li><a href="#">連絡我們</a><li>
 				</ul>
-			</nav>
+				</nav>
+			</div>
 			<div id="pageContent">
-				<h1>Hello isda</h1>
+				<div class="uk-grid">
+					<div class="uk-width-1-1">
+						<h1>Hello isda</h1>
+					</div>
+				</div>
 			</div>
 			<div id="pageFooter">
-				<h1>Copyright</h1>
+				<h1 class="uk-container-center">Copyright</h1>
 			</div>
 		</div>
 	</body>
